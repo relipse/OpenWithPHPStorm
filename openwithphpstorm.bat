@@ -1,6 +1,6 @@
 @echo on
 
-SET PhpStormPath==C:\Users\foobar\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\213.6777.58\bin\phpstorm64.exe
+SET PhpStormPath=C:\Users\foobar\AppData\Local\JetBrains\Toolbox\apps\PhpStorm\ch-0\213.6777.58\bin\phpstorm64.exe
  
 echo Adding file entries
 @reg add "HKEY_CLASSES_ROOT\*\shell\PhpStorm" /t REG_SZ /v "" /d "Open in PhpStorm"   /f
